@@ -1,0 +1,159 @@
+@media (max-width: 1439.98px) {
+    .winners__nachos-mini, .winners__nachos {
+        display: none;
+    }
+}
+
+@media (max-width: 798.98px) {
+    .winners__wrapper {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .winners {
+        min-height: 400px;
+        padding: 30px 0;
+    }
+
+    .winners__list {
+        display: flex;
+        &:first-child {
+            display: none;
+        }
+        &:last-child {
+            display: none;
+        }
+    }
+
+    .winners__btn-wrap {
+        display: none;
+    }
+
+    .winners .display-show {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .winners__prise, .winners__tel, .winners__data {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 0;
+        text-align: center;
+        min-width: 136px;;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .winners__tipe {
+        display: none;
+    }
+    .winners__wrapper {
+        padding: 0;
+    }
+    .winners__prise {
+        // margin-top: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+
+    }
+
+    .winners__tel {
+        margin-top: 8px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+
+    .winners__data {
+        margin-top: 3px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+
+    .winners__list-item {
+        font-size: 15px;
+        margin-bottom: 8px;
+        height: 240px;
+        min-width: 160px;
+        border-radius: 6px;
+        margin: 0 8px;
+        display: block;
+        // text-align: center;
+        // margin: 0 auto;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 24px;
+        }
+
+    }
+
+    .winners .winners__btn-mobile-wrapper {
+        display: block;
+        margin-left: 8px;
+        height: 240px;
+        min-width: 160px;
+        border-radius: 6px;
+        border: 2px solid #c84916;
+
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .winners__btn-mobile {
+        margin-top: 71px;
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .winners__btn-mobile-text {
+        margin-top: 13px;
+    }
+
+    .winners__title {
+        font-family: Lora;
+        font-size: 30px;
+    }
+
+    .winners__info-first, .winners__info-second {
+        font-size: 14px;
+    }
+
+    .winners__body-btn {
+        right: 16px;
+     
+    }
+    .winners__body-table {
+        display: flex;
+        overflow: scroll;
+        position: relative;
+        justify-content: center;
+    }
+    .winners .winners__btn-mobile-wrapper {
+        position: absolute;
+        right: -176px;
+        z-index: 15;
+        background: #120806;
+    }
+}
+
+@media (max-width: 320px) {
+    .winners .winners__btn-mobile-wrapper {
+        right: -176px;
+    }
+}
+

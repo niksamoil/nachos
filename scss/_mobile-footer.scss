@@ -1,0 +1,25 @@
+@media (max-width: 798.98px) {
+    
+    // .footer__number {
+    //     font-size: 18px;
+    // }
+    .footer__work-days {
+        font-size: 16px;
+    }
+    .footer__info .container {
+        flex-direction: column-reverse;
+        .footer__arrow-up {
+            display: none;
+        }
+        .footer__copy {
+            text-align: center;
+            margin-top: 8px;
+        }
+    }
+    .footer__fires-wrapper {
+        overflow: hidden;
+        img {
+            width: 165%;
+        }
+    }
+}

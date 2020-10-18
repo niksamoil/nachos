@@ -40,26 +40,3 @@ tabsParent.addEventListener('click', (event) => {
     })
 });
 
-
-
-// show more
-
-
-const btn = document.querySelector('.winners__btn');
-let newContent = `
-                            <div class="winners__list-item">
-                                <div class="winners__prise">Колонка </div>
-                                <div class="winners__tel">+79624***824</div>
-                                <div class="winners__data">15 ноября - 12 декабря</div>
-                            </div>
-
-`;
-
-btn.addEventListener('click', ()=>{
-    const body = document.querySelector('.winners__body-table');
-    tabsContent.forEach(item => {
-        if(item.classList.contains('display-show')) {
-            item.innerHTML += newContent;
-        }
-    });
-});

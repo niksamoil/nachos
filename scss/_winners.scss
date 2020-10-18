@@ -44,9 +44,14 @@
     // .winners__body-search
 
     &__body-search {
-        position: relative;
+        width: 100%;
+        // position: relative;
         display: flex;
         justify-content: center;
+
+        .winners__body-wrapper {
+            position: relative;
+        }
         .winners__body-input {
             height: 40px;
             width: 288px;
@@ -62,7 +67,7 @@
         }
         .winners__body-btn {
             position: absolute;
-            right: 168px;
+            right: 8px;
             top: 8px;
             outline: none;
             border: none;
@@ -122,7 +127,9 @@
         color: #333333;
     }
 
-  
+    .winners__btn-mobile-wrapper {
+        display: none;
+    }
 
     // .winners__list-item
 
@@ -136,7 +143,12 @@
         &:last-child {
             margin-bottom: 16px;
         }
+        img {
+            display: none;
+        }
     }
+
+    
 
     // .winners__prise
 
@@ -217,4 +229,7 @@
     }
 
 }
+
+@import "mobile-winners";
+
 
